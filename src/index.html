@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <title>Eid Greeting</title>
+</head>
+<body class="font-poppins  dark:bg-secondary dark:text-primary">
+    <header class="flex justify-between w-full h-14 p-4 relative">
+        <div>
+            <h1><span class="text-accent font-bold">Ied</span>Mubarak</h1>
+        </div>
+
+        <nav id="nav" class="-translate-y-full duration-300 absolute w-full top-0 right-0 bg-white p-4 text-center dark:text-primary dark:bg-secondary">
+            <button id="button-x" class="absolute top-4 right-4 md hidden">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
+            </button>
+            <ul class="mt-10">
+                <li class="mb-3">Home</li>
+                <li class="mb-3">Celebrate</li>
+                <li class="mb-3">Gifts</li>
+                <li class="mb-3">News</li>
+            </ul>
+        </nav>
+
+        <nav class="hidden md:block">
+            <ul class=" flex flex-row ">
+                <li class="mx-3">Home</li>
+                <li class="mx-3">Celebrate</li>
+                <li class="mx-3">Gifts</li>
+                <li class="mx-3">News</li>
+            </ul>
+        </nav>
+
+        <div class="icon flex gap-3">
+            <button id="button-dark" class="">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moon"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /></svg>
+            </button>
+            <button id="button-burger" class="md:hidden">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-layout-grid"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /><path d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /><path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /><path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /></svg>
+            </button>
+        </div>
+    </header>
+
+
+    <main class="flex flex-col text-center justify-center items-center my-20 md:flex-row md:justify-around">
+        <div>
+            <img src="./gambar/home.svg" alt="">
+        </div>
+
+        <div class="flex flex-col justify-center items-center md:text-start md:items-start">
+            <h1 class="title w-[400px] md:w-[400px]">Taqabbalallahu minna wa minkum</h1>
+            <p class="text">Eid Mubarak! Wishing you and your family a blessed and joyful Eid.</p>
+            <button class="btn"> Get started</button> 
+        </div>
+    </main>
+  
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
